@@ -1,69 +1,65 @@
-# React + TypeScript + Vite
+# 🎵 Spotify Clone  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Full-Stack Spotify Clone** built with **React**, **Node.js**, **Express**, **MongoDB**, and **Clerk Authentication**.  
+This project mimics Spotify’s design and functionality, including **album browsing**, **playlist playback**, **real-time messaging**, and **user authentication** — all wrapped in a sleek, modern UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Demo Screenshots  
+<img width="1910" height="975" alt="Screenshot 2025-10-24 144513" src="https://github.com/user-attachments/assets/63d862f2-a293-40ff-89e9-dbe9c91ef549" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<img width="1907" height="977" alt="Screenshot 2025-10-24 144526" src="https://github.com/user-attachments/assets/981a25a9-082a-4fbb-81c7-68fe9079fbda" />
+<img width="1902" height="974" alt="Screenshot 2025-10-24 144553" src="https://github.com/user-attachments/assets/10c2756f-db01-4298-9489-0762103ecb93" />
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+<img width="1909" height="969" alt="Screenshot 2025-10-24 144649" src="https://github.com/user-attachments/assets/878cfdd8-405b-438a-96f1-fc82a78eafd2" />
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Features  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🎧 Music & Playlists  
+- Play, pause, skip, and control volume for songs  
+- Browse and open albums dynamically  
+- Display album cover, title, artist, and tracklist  
+- Real-time progress bar and interactive player controls  
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🗂️ User System  
+- Secure **Sign up / Sign in / Sign out** powered by **Clerk**  
+- Personalized experience for each user  
+- Protected routes and persistent sessions  
+
+### 💬 Messages  
+- Dedicated **Messages section** for chatting  
+- “What they’re listening to” sidebar showing friends’ activity  
+- Real-time chat simulation between users  
+
+### 🎨 UI & UX  
+- Modern **Spotify-inspired dark theme**  
+- Responsive layout (desktop, tablet, and mobile)  
+- Smooth navigation with React Router  
+- Interactive hover animations and consistent design  
+
+---
+
+## 🛠️ Tech Stack  
+
+**Frontend:**  
+- React.js  
+- Tailwind CSS  
+- Axios  
+- React Router  
+- Clerk for Authentication  
+
+**Backend:**  
+- Node.js  
+- Express.js  
+- MongoDB with Mongoose  
+- RESTful APIs for songs, playlists, and messages  
+
+**Other Tools:**  
+- Vite (for fast frontend builds)  
+- dotenv (for environment management)  
+- Concurrently (for running both servers)  
+
