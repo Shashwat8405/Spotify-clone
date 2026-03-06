@@ -1,4 +1,4 @@
-# 🎵 Spotify Clone  
+# 🎵 StreamSync 
 
 A **Full-Stack Spotify Clone** built with **React**, **Node.js**, **Express**, **MongoDB**, and **Clerk Authentication**.  
 This project mimics Spotify’s design and functionality, including **album browsing**, **playlist playback**, **real-time messaging**, and **user authentication** — all wrapped in a sleek, modern UI.
