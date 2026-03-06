@@ -15,7 +15,7 @@ const Topbar = () => {
     console.log(isAdmin);// Replace with actual admin check logic
   return (
     <div className="flex items-center justify-between bg-zinc-900/75
-    backdrop-blur-md z-10"><div  className="flex gap-2 items-center"><img src="/spotify.png" className="size-8 "alt="spotify logo"/>Spotify</div>
+    backdrop-blur-md z-10"><div  className="flex gap-2 items-center"><img src="/spotify.png" className="size-8 "alt="spotify logo"/>StreamSync</div>
     <div className="flex items-center gap-4">
         {isAdmin &&(
             <Link to={"/admin"} className={cn(buttonVariants({variant:"outline"}))}> 
