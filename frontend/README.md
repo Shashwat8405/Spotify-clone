@@ -6,13 +6,16 @@ This project mimics Spotify’s design and functionality, including **album brow
 ---
 
 ## 🌟 Demo Screenshots  
-<img width="1910" height="975" alt="Screenshot 2025-10-24 144513" src="https://github.com/user-attachments/assets/63d862f2-a293-40ff-89e9-dbe9c91ef549" />
+<img width="1904" height="973" alt="image" src="https://github.com/user-attachments/assets/7f30df79-dc72-4633-a4e5-c6847c8755db" />
 
 
-<img width="1907" height="977" alt="Screenshot 2025-10-24 144526" src="https://github.com/user-attachments/assets/981a25a9-082a-4fbb-81c7-68fe9079fbda" />
+
+<img width="1914" height="975" alt="image" src="https://github.com/user-attachments/assets/456ded02-6fff-4779-9d95-9461fea6b9b4" />
+
 <img width="1902" height="974" alt="Screenshot 2025-10-24 144553" src="https://github.com/user-attachments/assets/10c2756f-db01-4298-9489-0762103ecb93" />
 
-<img width="1909" height="969" alt="Screenshot 2025-10-24 144649" src="https://github.com/user-attachments/assets/878cfdd8-405b-438a-96f1-fc82a78eafd2" />
+<img width="1919" height="976" alt="image" src="https://github.com/user-attachments/assets/b677f222-a2eb-4443-b5ee-6fa04708567d" />
+
 
 
 ---
